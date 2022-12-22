@@ -33,7 +33,7 @@ enum CatchType
 	BOOT
 };
 
-void fishing(int *field, int size, bool& exit)
+void fishing(const int *field, int size, bool& exit)
 {
 	int sector = 0;
 	std::cout << "Enter the sector from 1 to " << size << " to cast a fishing rod: ";
